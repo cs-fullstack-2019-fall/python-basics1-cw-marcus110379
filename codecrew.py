@@ -1,28 +1,28 @@
 ### Problem 1:
 #Create two variables. One should equal “My name is: “ and the other should equal your actual name. Print the two variables in one print message.
-#sentence = "My name is: "
-#username = "marcus"
-#print(sentence + username)
+sentence = "My name is: "
+username = "marcus"
+print(sentence + username)
 
 
 #Ask the user to enter the extra credit they earned. If they entered less than 5 print “That’s not enough extra credit.” If they entered more than 20 print “That’s too much extra credit”.
 
-#userCredit = int(input("enter extra credit "))
+userCredit = int(input("enter extra credit "))
 
-#if userCredit < 5:
- #   print("that's not enough extra credit")
-#elif userCredit > 20:
- #   print("that too much extra credit")
+if userCredit < 5:
+   print("that's not enough extra credit")
+elif userCredit > 20:
+   print("that too much extra credit")
 
 ### Problem 3:
 #Ask a user to enter a password. Enter a password. Ask user to reenter password. Check to see if they are correct.
 
-#userInput = input("enter a password ")
-#userInput2 = input("reenter password ")
-#if userInput == userInput2:
-#    print("correct")
-#else:
- #   print("incorrect")
+userInput = input("enter a password ")
+userInput2 = input("reenter password ")
+if userInput == userInput2:
+   print("correct")
+else:
+   print("incorrect")
 
 
 ## Problem 4:
